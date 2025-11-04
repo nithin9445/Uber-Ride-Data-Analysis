@@ -1,0 +1,10 @@
+-- DAX Measures (edit this list to match your report)
+
+Total Trips = COUNTROWS(Trips)
+Total Distance = SUM(Trips[distance_mi])
+Avg Duration (mins) = AVERAGE(Trips[duration_min])
+Avg Speed (mph) = DIVIDE([Total Distance], DIVIDE(SUM(Trips[duration_min]), 60))
+Trips (Morning) = CALCULATE([Total Trips], Trips[shift] = "Morning")
+Trips (Afternoon) = CALCULATE([Total Trips], Trips[shift] = "Afternoon")
+Trips (Evening) = CALCULATE([Total Trips], Trips[shift] = "Evening")
+Trips (Night) = CALCULATE([Total Trips], Trips[shift] = "Night")
