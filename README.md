@@ -20,3 +20,6 @@ This project analyzes Uber ride data to uncover patterns in **trip purpose, cate
 - `dax_measures.txt` — Measures used in the report (editable list)
 - `data/` — (Optional) Clean CSV sample to re-create the model (add later if needed)
 - `preview/` — Cover/preview images for this repo and LinkedIn
+
+<img width="1920" height="1080" alt="Screenshot (91)" src="https://github.com/user-attachments/assets/c62cb798-2446-456d-8ee1-f7cbd83469f8" />
+
